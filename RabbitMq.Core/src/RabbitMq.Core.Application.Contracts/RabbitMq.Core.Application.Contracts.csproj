@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Managers\Branch\Dtos\" />
+    <Folder Include="Managers\Report\Dtos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\RabbitMq.Core.Common\RabbitMq.Core.Common.csproj" />
+  </ItemGroup>
+
+</Project>
